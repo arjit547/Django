@@ -7,6 +7,9 @@ hooks:
   BeforeInstall: 
     - location: upload.sh
       timeout: 300
+  AfterInstall:
+    - location: config.sh
+      timeout: 300
   ApplicationStart:
     - location: start.sh
       timeout: 200
