@@ -1,3 +1,3 @@
 #!/bin/bash
-cd hello
+cd /home/ubuntu/
 python3 manage.py migrate
